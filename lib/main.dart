@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
                       Container(
-                        margin: const EdgeInsets.all(5.0),
+                        margin: const EdgeInsets.all(10.0),
                         padding: EdgeInsets.all(10),
                         height: 100,
                         color: Colors.red[900],
