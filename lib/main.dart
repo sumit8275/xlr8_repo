@@ -15,15 +15,21 @@ class MyApp extends StatelessWidget {
             child: Column(
               children: <Widget>[
                 Container(
+                  height: 100,
+                  width: 100,
+                  color: Colors.blue,
                   child: Text('Hello World'),
                 ),
                 Container(
+                  height: 100,
+                  width: 100,
+                  color: Colors.red,
                   child: Text('Hello World'),
                 ),
                 Container(
-                  child: Text('Hello World'),
-                ),
-                Container(
+                  height: 100,
+                  width: 100,
+                  color: Colors.green,
                   child: Text('Hello World'),
                 ),
               ],
