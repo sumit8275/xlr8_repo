@@ -13,7 +13,9 @@ class MyApp extends StatelessWidget {
           child: Container(
             color: Colors.amber,
             child: Column(
-              children: <Row>[],
+              children: <Widget>[
+                Text('Hello World'),
+              ],
             ),
           ),
         ),
