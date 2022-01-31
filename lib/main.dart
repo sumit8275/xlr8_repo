@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         margin: const EdgeInsets.all(10.0),
                         height: 100,
-                        width: double.infinity,
+                        width: 200,
                         color: Colors.red[900],
                         child: Text('Hello World'),
                       ),
