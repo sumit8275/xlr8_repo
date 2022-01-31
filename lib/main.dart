@@ -69,7 +69,7 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
                 Container(
-                  margin: EdgeInsets.fromLTRB(20, 20, 10, 10),
+                  margin: EdgeInsets.fromLTRB(20, 10, 20, 10),
                   padding: EdgeInsets.fromLTRB(20, 10, 20, 10),
                   width: 150,
                   height: 75,
