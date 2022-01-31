@@ -11,7 +11,6 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(backgroundColor: Colors.blueGrey[900], title: Text("XLR8")),
         body: SafeArea(
           child: Container(
-            color: Colors.amber,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               crossAxisAlignment: CrossAxisAlignment.stretch,
