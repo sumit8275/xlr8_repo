@@ -42,10 +42,31 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
                 Container(
-                  height: 100,
-                  width: 100,
-                  color: Colors.red[900],
-                  child: Text('Hello World'),
+                  margin: const EdgeInsets.all(10.0),
+                  height: 200,
+                  color: Colors.blue[750],
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      Container(
+                        margin: EdgeInsets.all(10.0),
+                        padding: EdgeInsets.all(10),
+                        width: 150,
+                        height: 100,
+                        color: Colors.red[900],
+                        child: Text('Hello World'),
+                      ),
+                      Container(
+                        margin: EdgeInsets.all(10.0),
+                        padding: EdgeInsets.all(10),
+                        width: 150,
+                        height: 100,
+                        color: Colors.green,
+                        child: Text('Hello World'),
+                      ),
+                    ],
+                  ),
                 ),
                 Container(
                   height: 100,
