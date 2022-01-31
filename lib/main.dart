@@ -14,7 +14,18 @@ class MyApp extends StatelessWidget {
             color: Colors.amber,
             child: Column(
               children: <Widget>[
-                Text('Hello World'),
+                Container(
+                  child: Text('Hello World'),
+                ),
+                Container(
+                  child: Text('Hello World'),
+                ),
+                Container(
+                  child: Text('Hello World'),
+                ),
+                Container(
+                  child: Text('Hello World'),
+                ),
               ],
             ),
           ),
