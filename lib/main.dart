@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
                   height: 200,
                   color: Colors.blue[750],
                   child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                       Container(
                         margin: const EdgeInsets.all(10.0),
@@ -29,6 +30,7 @@ class MyApp extends StatelessWidget {
                       ),
                       Container(
                         margin: const EdgeInsets.all(10.0),
+                        padding: EdgeInsets.all(10),
                         height: 100,
                         color: Colors.green,
                         child: Text('Hello World'),
