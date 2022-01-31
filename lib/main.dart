@@ -20,7 +20,6 @@ class MyApp extends StatelessWidget {
                   width: double.infinity,
                   color: Colors.blue[750],
                   child: Row(
-                    crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
                       Container(
                         margin: const EdgeInsets.all(10.0),
