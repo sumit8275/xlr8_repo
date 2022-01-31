@@ -22,12 +22,14 @@ class MyApp extends StatelessWidget {
                   child: Row(
                     children: [
                       Container(
+                        margin: const EdgeInsets.all(10.0),
                         height: 100,
                         width: 100,
                         color: Colors.red[900],
                         child: Text('Hello World'),
                       ),
                       Container(
+                        margin: const EdgeInsets.all(10.0),
                         height: 100,
                         width: 100,
                         color: Colors.green,
