@@ -13,6 +13,8 @@ class MyApp extends StatelessWidget {
           child: Container(
             color: Colors.amber,
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              crossAxisAlignment: CrossAxisAlignment.stretch,
               children: <Widget>[
                 Container(
                   height: 100,
