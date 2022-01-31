@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
                       Container(
-                        margin: EdgeInsets.all(10.0),
+                        margin: EdgeInsets.fromLTRB(10, 10, 0, 10),
                         padding: EdgeInsets.all(10),
                         width: 150,
                         height: 100,
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
                         child: Text('Hello World'),
                       ),
                       Container(
-                        margin: EdgeInsets.all(10.0),
+                        margin: EdgeInsets.fromLTRB(0, 10, 10, 10),
                         padding: EdgeInsets.all(10),
                         width: 150,
                         height: 100,
