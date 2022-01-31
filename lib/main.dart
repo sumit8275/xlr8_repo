@@ -8,10 +8,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.blueGrey,
-        appBar: AppBar(backgroundColor: Colors.blueGrey[900], title: Text("I Am Rich")),
+        appBar: AppBar(backgroundColor: Colors.blueGrey[900], title: Text("XLR8")),
         body: SafeArea(
-          child: Center(
-            child: Image(image: AssetImage('assets/images/diamond.png')),
+          child: Container(
+            color: Colors.amber,
+            child: Column(
+              children: <Row>[],
+            ),
           ),
         ),
       ),
