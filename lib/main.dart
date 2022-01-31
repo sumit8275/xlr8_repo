@@ -12,14 +12,19 @@ class MyApp extends StatelessWidget {
         body: SafeArea(
           child: Container(
             child: Column(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: <Widget>[
                 Container(
-                  height: 100,
-                  width: 100,
-                  color: Colors.blue[900],
-                  child: Text('Hello World'),
+                  margin: const EdgeInsets.all(10.0),
+                  height: 200,
+                  width: double.infinity,
+                  color: Colors.blue[750],
+                  child: Row(
+                    children: [
+                      Container(),
+                      Container(),
+                    ],
+                  ),
                 ),
                 Container(
                   height: 100,
