@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
                     children: [
                       Container(
                         margin: const EdgeInsets.all(10.0),
-                        padding: 0.5,
+                        padding: EdgeInsets.all(0.5),
                         height: 100,
                         color: Colors.red[900],
                         child: Text('Hello World'),
