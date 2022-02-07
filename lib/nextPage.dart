@@ -70,7 +70,7 @@ class nextPage extends StatelessWidget {
                   padding: EdgeInsets.fromLTRB(20, 10, 20, 10),
                   width: 150,
                   height: 75,
-                  color: Colors.green,
+                  color: Colors.green[100],
                   child: Text('Hello World'),
                 ),
               ],
