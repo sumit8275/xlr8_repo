@@ -6,8 +6,8 @@ class nextPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.blueGrey,
-        appBar: AppBar(backgroundColor: Colors.blueGrey[900], title: Text("XLR8")),
+        backgroundColor: Colors.white,
+        appBar: AppBar(title: Text("XLR8")),
         body: SafeArea(
           child: Container(
             child: Column(
