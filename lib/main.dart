@@ -41,7 +41,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                 alignment: Alignment.center,
                 padding: const EdgeInsets.all(10),
                 child: const Text(
-                  'TutorialKart',
+                  'XLR8',
                   style: TextStyle(color: Colors.blue, fontWeight: FontWeight.w500, fontSize: 30),
                 )),
             Container(
