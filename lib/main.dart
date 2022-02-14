@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'nextPage.dart';
+import 'package:starflut/starflut.dart';
 
 void main() => runApp(const MyApp());
 
