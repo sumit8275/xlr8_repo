@@ -19,10 +19,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  starflut: ^0.6.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_driver:
+    sdk: flutter
+  bdd_widget_test: ^1.2.1
+  build_runner: ^2.1.7
 
 
 # For information on the generic Dart part of this file, see the
