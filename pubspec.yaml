@@ -19,7 +19,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  starflut: ^0.6.0
+  starflut: ^1.0.0
 
 dev_dependencies:
   flutter_test:
